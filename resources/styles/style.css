@@ -1,0 +1,142 @@
+html {
+  display: block;
+}
+
+body {
+  display: block;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  margin: auto;
+  background: black;
+  width: 100%;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  margin-top: 0;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+/* Main content */
+
+.main-content {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission */
+#mission {
+  background-image: url("https://halllou.github.io/tea-cozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  padding-top: 70px;
+}
+
+/*Store section */
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Location section */
+#locations {
+  background-image: url("https://halllou.github.io/tea-cozy/resources/images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Contact section */
+
+#contact {
+  height: 200px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  padding-left: 20px;
+}
+
+footer span {
+  text-align: left;
+}
